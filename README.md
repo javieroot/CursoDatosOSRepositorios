@@ -1,4 +1,4 @@
-# Taller de Datos - Data Toolbox
+# Taller de Datos - Data Toolbox [WORKING PROGRESS]
 ## [XIV Workshop Rebiun -VI Jornadas OS-Repositorios](http://www.uco.es/rebiunworkshop2015/)
 
 Tras varios años tratando sobre las posibles labores de las bibliotecas con los datos de investigación, las políticas de la Unión Europea empiezan a tener su efecto. Estas políticas se han cristalizado en la necesidad de presentar planes de gestión de datos con las propuestas de proyectos de investigación. Los investigadores van a necesitar planificar cómo gestionar sus datos, dejando documentando qué datos y cómo van a crearse, la manera en que se van a almacenar y además de la forma en que se van a compartir o publicar. Las bibliotecas en muchos países ya apoyan en la elaboración de estos planes además de ofrecer una amplia variedad de servicios con datos.
