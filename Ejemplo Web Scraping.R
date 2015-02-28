@@ -52,4 +52,4 @@ for (i in 11:40){
 }
 
 # lo exportamos a un fichero csv
-write.table(eleccion, "eleccion.csv", sep=";")
+write.table(eleccion_full, "eleccion_full.csv", sep=";")
