@@ -1,21 +1,25 @@
 ############################################################################################################################
-# Este script http://decisionstats.com/2014/02/26/using-r-with-twitter-great-tutorial-in-rstats/
-# 
+# Este script demuestra como caputar datos de twitter usando R
+# con los datos que obtengamos montaremos una nube de etiquetas usando wordle
 
+# cargamos algunas librerias que pueden hacernos falta
 library(twitteR)
 library(ROAuth)
 library(RCurl)
-library("XML")
-require(RJSONIO) 
+library(httr)
 
-getTwitterOAuth("AAA", "BBB")
-registerTwitterOAuth(oauth)
+# autenticación contra la app creada anteriormente en twitter como se explica en
+# http://decisionstats.com/2014/02/26/using-r-with-twitter-great-tutorial-in-rstats/
+# hace falta poner los cuatro parametros consumer key, secret, access token y access secret
 
-tweets = searchTwitter("fundacion juan march")
-tweets = searchTwitter("fundacion juan march", since='2012-01-01', until='2012-12-30')
+setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 
+# buscamos tweets con el hashtag #OSR6
+OSRE6tweets = searchTwitter("#OSR6")
+OSRE6tweetsDB <-twListToDF(OSRE6tweets)
+
+# descargamos el timeline de podemos
 PodemosTweets = userTimeline("ahorapodemos", n=100)
-PodemosTweets <- as.data.frame(PodemosTweets)
 PodemosTweetsDB <-twListToDF(PodemosTweets)
 PodemosTweetsDBText <- PodemosTweetsDB[1]
 
