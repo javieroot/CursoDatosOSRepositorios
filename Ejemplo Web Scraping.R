@@ -49,7 +49,7 @@ for (i in 11:40){
   
   eleccion_full <- rbind (eleccion_full,eleccion)
   writeLines(paste("iteración: ",i))
-}
+} 
 
 # lo exportamos a un fichero csv
 write.table(eleccion_full, "eleccion_full.csv", sep=";")
