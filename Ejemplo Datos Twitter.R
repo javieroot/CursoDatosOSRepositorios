@@ -8,7 +8,7 @@ library(RCurl)
 library("XML")
 require(RJSONIO) 
 
-getTwitterOAuth("67IaqEiVY5pGvBfybvK22g", "nvbCMgRwyFFbwNjSXqUZHzpGlGAhjQ6FgIMadQVI")
+getTwitterOAuth("AAA", "BBB")
 registerTwitterOAuth(oauth)
 
 tweets = searchTwitter("fundacion juan march")
