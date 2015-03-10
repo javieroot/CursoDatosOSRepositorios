@@ -5,7 +5,7 @@ Tras varios años tratando sobre las posibles labores de las bibliotecas con los
 
 Este taller tiene por objetivo ofrecer una visión amplia y práctica de los trabajos con datos, las herramientas, metodologías y estrategias que se pueden utilizar para ofrecer servicios de datos desde bibliotecas. Estos se presentarán a través de ejemplos a lo largo del ciclo de vida de los datos para:
 
-1. la planificación ([DMPOnline](https://dmponline.dcc.ac.uk/users/edit)); 
+1. la planificación ([PGDOnline](http://dmp.consorciomadrono.es/)); 
 2. la generación de datos ([Google Forms](http://www.google.com/forms/about/)/[Scrapers](http://es.wikipedia.org/wiki/Web_scraping)/[Open Source Hardware](http://es.wikipedia.org/wiki/Hardware_libre)); 
 3. el tratamiento y normalización ([OpenRefine](http://openrefine.org/)/Pentaho); 
 4. el análisis y visualización([R]()/[FusionTables](https://support.google.com/fusiontables/answer/2571232)/[Infogr.am](https://infogr.am/)) 
