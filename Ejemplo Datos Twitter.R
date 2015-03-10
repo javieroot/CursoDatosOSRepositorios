@@ -17,6 +17,8 @@ setup_twitter_oauth(consumer_key, consumer_secret, access_token, access_secret)
 # buscamos tweets con el hashtag #OSR6
 OSRE6tweets = searchTwitter("#OSR6")
 OSRE6tweetsDB <-twListToDF(OSRE6tweets)
+OSRE6TweetsDBText <- OSRE6tweetsDB[1]
+write.table(OSRE6TweetsDBText, "OSRE6TweetsDBText.csv", sep=";")
 
 # descargamos el timeline de podemos
 PodemosTweets = userTimeline("ahorapodemos", n=100)
